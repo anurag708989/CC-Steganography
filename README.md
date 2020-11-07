@@ -40,7 +40,7 @@ Megapixels                      : 0.034
 
 
 
-----------------------
+
 root@kali:~/ctf/tryhackme/CC: stegnography# steghide --extract -sf task7_image_1.jpeg 
 Enter passphrase: 
 wrote extracted data to "a.txt".
@@ -48,7 +48,7 @@ root@kali:~/ctf/tryhackme/CC: stegnography# cat a.tx
 cat: a.tx: No such file or directory
 root@kali:~/ctf/tryhackme/CC: stegnography# cat a.txt 
 the key is: superkeykey
-------------------------
+
 
 
 but this is the password for steghide not the key ,so the key i found using
